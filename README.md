@@ -42,7 +42,7 @@ It compares favorably to [the alternatives](docs/Comparison.md), and provides th
 [use]: docs/How-do-I-use-it.md
 [api]: docs/What-is-it.md#API
 
-**:star: See Also: [How DNSChain Compares To Other Approaches](docs/Comparison.md)**
+**:star: See Also: [Comparison](docs/Comparison.md) and [Security Model](docs/Security-Model.md)**
 
 ## Documentation
 
@@ -134,11 +134,19 @@ _Approximate chronological order._
 - [Konstantinos Lolos](https://www.linkedin.com/in/kostislolos) ([pydnschain](https://github.com/okTurtles/pydnschain) work)
 - [Anton Wilhelm](https://github.com/toenu23) (Support for [Nxt](http://nxt.org) cryptocurrency)
 - [Tim Uy](https://github.com/tofutim) (Ubuntu tutorial)
+- [Michael Bumann](https://twitter.com/bumi) (optional CORS support)
 - *Your name & link of choice here!*
 
 ## Release History
 
 __[Blog post for 0.5 release.](https://blog.okturtles.com/2015/03/dnschain-0-5-released-https-openname-resolver-api-more/)__
+
+###### 0.5.3 - September 5, 2015
+
+- __New Features:__
+    + Optional CORS support from [Michael Bumann](https://twitter.com/bumi) (thanks!).
+- __Improvements:__
+    + Bumped `hiredis` to 0.4.1 for latest iojs compat.
 
 ###### 0.5.2 - March 11, 2015
 
